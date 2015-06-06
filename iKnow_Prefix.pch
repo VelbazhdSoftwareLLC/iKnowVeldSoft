@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'iKnow' target in the 'iKnow' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

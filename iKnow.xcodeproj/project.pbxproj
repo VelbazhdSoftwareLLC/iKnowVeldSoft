@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iKnowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iKnowAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* iKnowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iKnowViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* iKnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iKnowViewController.m */; };
+		703ECA1F1147AC1A00EE96E7 /* OptionsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 703ECA1E1147AC1A00EE96E7 /* OptionsGenerator.m */; };
+		70423673114FAA74005244E3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70423672114FAA74005244E3 /* AudioToolbox.framework */; };
+		704236DC114FB6CD005244E3 /* Glass.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 704236DA114FB6CD005244E3 /* Glass.aiff */; };
+		704236DD114FB6CD005244E3 /* Pop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 704236DB114FB6CD005244E3 /* Pop.aiff */; };
+		707B3DAF115251F400672723 /* forest_road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DA6115251F400672723 /* forest_road.jpg */; };
+		707B3DB0115251F400672723 /* sector_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DA7115251F400672723 /* sector_01.png */; };
+		707B3DB1115251F400672723 /* sector_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DA8115251F400672723 /* sector_02.png */; };
+		707B3DB2115251F400672723 /* sector_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DA9115251F400672723 /* sector_03.png */; };
+		707B3DB3115251F400672723 /* sector_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DAA115251F400672723 /* sector_04.png */; };
+		707B3DB4115251F400672723 /* sector_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DAB115251F400672723 /* sector_05.png */; };
+		707B3DB5115251F400672723 /* sector_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DAC115251F400672723 /* sector_06.png */; };
+		707B3DB6115251F400672723 /* sector_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DAD115251F400672723 /* sector_07.png */; };
+		707B3DB7115251F400672723 /* sector_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B3DAE115251F400672723 /* sector_08.png */; };
+		7095256711BA9A6A005F37E3 /* mt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7095256611BA9A6A005F37E3 /* mt.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iKnowAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKnowAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iKnowAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iKnowAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iKnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* iKnowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iKnowViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* iKnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKnowViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* iKnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iKnowViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iKnow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKnow_Prefix.pch; sourceTree = "<group>"; };
+		703ECA1D1147AC1A00EE96E7 /* OptionsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsGenerator.h; sourceTree = "<group>"; };
+		703ECA1E1147AC1A00EE96E7 /* OptionsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsGenerator.m; sourceTree = "<group>"; };
+		70423672114FAA74005244E3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		704236DA114FB6CD005244E3 /* Glass.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Glass.aiff; sourceTree = "<group>"; };
+		704236DB114FB6CD005244E3 /* Pop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Pop.aiff; sourceTree = "<group>"; };
+		707B3DA6115251F400672723 /* forest_road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forest_road.jpg; sourceTree = "<group>"; };
+		707B3DA7115251F400672723 /* sector_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sector_01.png; sourceTree = "<group>"; };
+		707B3DA8115251F400672723 /* sector_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sector_02.png; sourceTree = "<group>"; };
+		707B3DA9115251F400672723 /* sector_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sector_03.png; sourceTree = "<group>"; };
+		707B3DAA115251F400672723 /* sector_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sector_04.png; sourceTree = "<group>"; };
+		707B3DAB115251F400672723 /* sector_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sector_05.png; sourceTree = "<group>"; };
+		707B3DAC115251F400672723 /* sector_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sector_06.png; sourceTree = "<group>"; };
+		707B3DAD115251F400672723 /* sector_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sector_07.png; sourceTree = "<group>"; };
+		707B3DAE115251F400672723 /* sector_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sector_08.png; sourceTree = "<group>"; };
+		7095256511BA9A6A005F37E3 /* mt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mt.h; sourceTree = "<group>"; };
+		7095256611BA9A6A005F37E3 /* mt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mt.c; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iKnow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iKnow-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				70423673114FAA74005244E3 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iKnowAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iKnowAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* iKnowViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* iKnowViewController.m */,
+				703ECA1D1147AC1A00EE96E7 /* OptionsGenerator.h */,
+				703ECA1E1147AC1A00EE96E7 /* OptionsGenerator.m */,
+				7095256511BA9A6A005F37E3 /* mt.h */,
+				7095256611BA9A6A005F37E3 /* mt.c */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iKnow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iKnow_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				707B3DA6115251F400672723 /* forest_road.jpg */,
+				707B3DA7115251F400672723 /* sector_01.png */,
+				707B3DA8115251F400672723 /* sector_02.png */,
+				707B3DA9115251F400672723 /* sector_03.png */,
+				707B3DAA115251F400672723 /* sector_04.png */,
+				707B3DAB115251F400672723 /* sector_05.png */,
+				707B3DAC115251F400672723 /* sector_06.png */,
+				707B3DAD115251F400672723 /* sector_07.png */,
+				707B3DAE115251F400672723 /* sector_08.png */,
+				704236DA114FB6CD005244E3 /* Glass.aiff */,
+				704236DB114FB6CD005244E3 /* Pop.aiff */,
+				2899E5210DE3E06400AC0155 /* iKnowViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iKnow-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				70423672114FAA74005244E3 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iKnow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iKnow" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iKnow;
+			productName = iKnow;
+			productReference = 1D6058910D05DD3D006BFB54 /* iKnow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iKnow" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iKnow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* iKnowViewController.xib in Resources */,
+				704236DC114FB6CD005244E3 /* Glass.aiff in Resources */,
+				704236DD114FB6CD005244E3 /* Pop.aiff in Resources */,
+				707B3DAF115251F400672723 /* forest_road.jpg in Resources */,
+				707B3DB0115251F400672723 /* sector_01.png in Resources */,
+				707B3DB1115251F400672723 /* sector_02.png in Resources */,
+				707B3DB2115251F400672723 /* sector_03.png in Resources */,
+				707B3DB3115251F400672723 /* sector_04.png in Resources */,
+				707B3DB4115251F400672723 /* sector_05.png in Resources */,
+				707B3DB5115251F400672723 /* sector_06.png in Resources */,
+				707B3DB6115251F400672723 /* sector_07.png in Resources */,
+				707B3DB7115251F400672723 /* sector_08.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iKnowAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* iKnowViewController.m in Sources */,
+				703ECA1F1147AC1A00EE96E7 /* OptionsGenerator.m in Sources */,
+				7095256711BA9A6A005F37E3 /* mt.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iKnow_Prefix.pch;
+				INFOPLIST_FILE = "iKnow-Info.plist";
+				PRODUCT_NAME = iKnow;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iKnow_Prefix.pch;
+				INFOPLIST_FILE = "iKnow-Info.plist";
+				PRODUCT_NAME = iKnow;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iKnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iKnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
