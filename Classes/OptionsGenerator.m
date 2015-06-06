@@ -24,20 +24,24 @@
 	options[6] = @"TOMORROW"; 
 	options[7] = @"SIT ON IT";
 
-	//srand(time(0));
 	init_genrand(time(0));
 	return self;
 } 
 
 -(void)dealloc{
-	[options release];
+	[options[0] release];
+    [options[1] release];
+    [options[2] release];
+    [options[3] release];
+    [options[4] release];
+    [options[5] release];
+    [options[6] release];
+    [options[7] release];
 	[super dealloc];
 }
 
 -(NSString*)doGuess{
-	//return options[ rand()%8 ];
 	return options [genrand_int32() % 8];
-	
 }
 
 @end

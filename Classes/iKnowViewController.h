@@ -15,19 +15,8 @@
 	int moveCounter;
 	int guessCounter;
 	int dmState;
-	
-	IBOutlet UIImageView *sector01;
-	IBOutlet UIImageView *sector02;
-	IBOutlet UIImageView *sector03;
-	IBOutlet UIImageView *sector04;
-	IBOutlet UIImageView *sector05;
-	IBOutlet UIImageView *sector06;
-	IBOutlet UIImageView *sector07;
-	IBOutlet UIImageView *sector08;
-	
-	
-
 }
+
 - (IBAction) buttonPressed:(id)sender;
 
 @property(nonatomic, retain)IBOutlet UIButton *button;

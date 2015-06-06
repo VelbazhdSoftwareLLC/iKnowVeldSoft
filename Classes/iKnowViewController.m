@@ -23,28 +23,6 @@
 SystemSoundID singleMoveSoundID;
 SystemSoundID rollingEndSoundID;
 
-/*@synthesize button,label;
-
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-	[super loadView];
-	
-}
-*/
-
-
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -72,16 +50,6 @@ SystemSoundID rollingEndSoundID;
 
 }
 
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
@@ -105,9 +73,7 @@ SystemSoundID rollingEndSoundID;
 
 - (IBAction) buttonPressed:(id)sender {
 	dmState = DM_ROLLING;
-	//guessCounter = MIN_SECTORS_ROLL + rand() % 5;
 	guessCounter = MIN_SECTORS_ROLL + genrand_int32() % 5;
-	
 }
 
 - (void) singleMoveSound{
@@ -126,40 +92,40 @@ SystemSoundID rollingEndSoundID;
 		
 	switch ( moveCounter ) {
 		case 0:
-			sector08.alpha = 0.5;
-			sector01.alpha = 1.0;
+			_sector08.alpha = 0.5;
+			_sector01.alpha = 1.0;
 			break;
 		case 1:
-			sector01.alpha = 0.5;
-			sector02.alpha = 1.0;
+			_sector01.alpha = 0.5;
+			_sector02.alpha = 1.0;
 			break;
 		case 2:
-			sector02.alpha = 0.5;
-			sector03.alpha = 1.0;
+			_sector02.alpha = 0.5;
+			_sector03.alpha = 1.0;
 			break;
 		case 3:
-			sector03.alpha = 0.5;
-			sector04.alpha = 1.0;
+			_sector03.alpha = 0.5;
+			_sector04.alpha = 1.0;
 			break;
 		case 4:
-			sector04.alpha = 0.5;
-			sector05.alpha = 1.0;
+			_sector04.alpha = 0.5;
+			_sector05.alpha = 1.0;
 			break;
 		case 5:
-			sector05.alpha = 0.5;
-			sector06.alpha = 1.0;
+			_sector05.alpha = 0.5;
+			_sector06.alpha = 1.0;
 			break;
 		case 6:
-			sector06.alpha = 0.5;
-			sector07.alpha = 1.0;
+			_sector06.alpha = 0.5;
+			_sector07.alpha = 1.0;
 			break;
 		case 7:
-			sector07.alpha = 0.5;
-			sector08.alpha = 1.0;
+			_sector07.alpha = 0.5;
+			_sector08.alpha = 1.0;
 			break;
 		case 8:
-			sector08.alpha = 0.5;
-			sector01.alpha = 1.0;
+			_sector08.alpha = 0.5;
+			_sector01.alpha = 1.0;
 			break;
 	}
 	
@@ -173,7 +139,6 @@ SystemSoundID rollingEndSoundID;
 	}
 }
 
-
 -(void)acce:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration{
 	static double lastValue = 0;
 	static bool isFistTime = TRUE;
@@ -184,13 +149,11 @@ SystemSoundID rollingEndSoundID;
 	}
 	
 	double currentValue = sqrt(acceleration.x*acceleration.x + acceleration.y*acceleration.y + acceleration.z*acceleration.z);
-	if (abs(currentValue - lastValue) >= SHAKE_LEVEL) {
-		//guessCounter += 1 + rand() %3;
+	if (fabs(currentValue - lastValue) >= SHAKE_LEVEL) {
 		guessCounter += 1 + genrand_int32() %3;
 	}
+    
 	lastValue = currentValue;
-	
 }
-
 
 @end
